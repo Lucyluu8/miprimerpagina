@@ -107,6 +107,9 @@ footer{
     text-align: center;
 
 }
+.titulo{
+    display: none;
+}
 
 
 
@@ -123,6 +126,12 @@ footer{
         background-color: black;
         display: flex;
         flex-direction: column;
+        
+    }
+    .titulo{
+        display: block;
+        text-align: center;
+        font-size: 40px;
         
     }
     #listas{
@@ -184,7 +193,6 @@ footer{
 
     
    
-
 
 }
 
