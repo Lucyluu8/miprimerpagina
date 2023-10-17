@@ -117,7 +117,7 @@ footer{
 
 
 
-@media(max-width: 600px){
+@media(max-width: 700px){
 
     #encabezado{
         background-color: black;
@@ -135,8 +135,8 @@ footer{
        
     }
     .barra{
-        width: 500px;
-        height: 160px;
+        width: 300px;
+        height: 100%;
         background-color:rgb(61, 56, 56);
         flex-direction: column;
         align-items: center;
@@ -175,6 +175,11 @@ footer{
 
     .barra_visible{
         left: 0;
+    
+    }
+
+    body{
+        height: 100%;
     }
 
     
