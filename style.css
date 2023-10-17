@@ -87,7 +87,7 @@ h3{
 }
 
 p{
-    color: #000000;
+    color: white;
 }
 main{
     display: flex;
@@ -102,6 +102,13 @@ footer{
 }
 
 
+.greeting {
+    
+    text-align: center;
+
+}
+
+
 
     
 
@@ -110,7 +117,7 @@ footer{
 
 
 
-@media(max-width: 767px){
+@media(max-width: 600px){
 
     #encabezado{
         background-color: black;
